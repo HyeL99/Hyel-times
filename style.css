@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: "Hahmlet", serif;
+}
+.text-header {
+  font-family: "UnifrakturMaguntia", cursive;
+}
+.menus {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 12px;
+  border-top: 1px solid gray;
+  border-bottom: 4px double gray;
+  padding: 3px 0;
+}
+.menus button {
+  padding: 0;
+  margin: 0 0.5em;
+  border: none;
+  background: none;
+}
+.menus button:hover {
+  color: skyblue;
+}
+.news-item {
+  border-bottom: 2px solid gray;
+}
+img {
+  max-width: 100%;
+  max-height: 250px;
+}
+#search-input {
+  font-size: 12px;
+}
+#search-button {
+  font-size: 12px;
+  border: 2px solid lightgray;
+  background: none;
+  border-radius: 0.3em;
+}
+input {
+  border: 2px solid lightgray;
+  border-radius: 0.3em;
+}
+input:focus {
+  outline: none;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.page-item .page-link {
+  color: black;
+}
+.page-item.active .page-link {
+  z-index: 3;
+  background-color: gray;
+  border-color: gray;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#input-button {
+  border: none;
+  background: none;
+}
+#input-button:hover {
+  background-color: skyblue;
+  color: white;
+  border: none;
+}
+.text-header:hover {
+  cursor: pointer;
+}
